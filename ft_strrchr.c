@@ -6,7 +6,7 @@
 /*   By: alaalalm <alaalalm@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/01 15:14:38 by alaalalm          #+#    #+#             */
-/*   Updated: 2023/11/07 15:00:25 by alaalalm         ###   ########.fr       */
+/*   Updated: 2024/05/08 14:24:01 by alaalalm         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,7 @@ char	*ft_strrchr(const char *s, int c)
 	c_found = 0;
 	while (s[i] != '\0')
 	{
-		if (s[i] == (char)c)
-		{
+		if (s[i] == (char)c) {
 			last = i;
 			c_found = 1;
 		}
